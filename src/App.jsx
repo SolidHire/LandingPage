@@ -8,8 +8,10 @@ import Card2 from "./components/Cards/Card2";
 import Card3 from "./components/Cards/Card3";
 import Card4 from "./components/Cards/Card4";
 import Card5 from "./components/Cards/Card5";
-
-
+import Card6 from "./components/Cards/Card6";
+import Card7 from "./components/Cards/Card7";
+import Card8 from "./components/Cards/Card8";
+import Features from "./components/Features";
 const App = () => {
   return (
     <div>
@@ -21,6 +23,10 @@ const App = () => {
       <Card3 />
       <Card4 />
       <Card5 />
+      <Card6 />
+      <Card7 />
+      <Card8 />
+      <Features />
     </div>
   );
 };
