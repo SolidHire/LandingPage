@@ -12,6 +12,9 @@ import Card6 from "./components/Cards/Card6";
 import Card7 from "./components/Cards/Card7";
 import Card8 from "./components/Cards/Card8";
 import Features from "./components/Features";
+import Card from "./components/Card";
+import Box from "./components/Box";
+
 const App = () => {
   return (
     <div>
@@ -27,6 +30,8 @@ const App = () => {
       <Card7 />
       <Card8 />
       <Features />
+      <Card />
+      <Box />
     </div>
   );
 };
